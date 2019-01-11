@@ -43,6 +43,8 @@
 
 2.3.1 Go to `sih/public/` folder and run `ng serve`  command to serve on `localhost:4200`.
 
+#### OR
+
 2.3.1	Go to `sih/public/` folder and run `ng build`  command to serve on `localhost:3000`.
 
 ---
