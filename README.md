@@ -39,9 +39,11 @@
 
 2.1.	Start MongoDB with `mongod` command or, `mongod --dbpath PATH_TO_YOUR_DATA_DB_FOLDER` passing the path to default MongoDB data folder.
 
-2.2.	Go to `sih/` folder and run `npm run dev`  command.
+2.2.	Go to `sih/` folder and run `nodemon server`  command.
 
-2.3.	Open your browser and go to `localhost:3000`.
+2.3.1 Go to `sih/public/` folder and run `ng serve`  command to serve on `localhost:4200`.
+
+2.3.1	Go to `sih/public/` folder and run `ng build`  command to serve on `localhost:3000`.
 
 ---
 
