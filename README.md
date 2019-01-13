@@ -22,11 +22,11 @@
 `git clone https://github.com/shubham3597/smart-india-hackathon.git` (Only Your particular USER_NAME will be allowed to do so, as this is the private repo)
 
 
-1.2.	Go to `sih/` folder and run `npm install`.
+1.2.	Go to `smart-india-hackathon/` folder and run `npm install`.
 
-1.3.	Go to `sih/public/` folder and run `npm install`.
+1.3.	Go to `smart-india-hackathon/public/` folder and run `npm install`.
 
-1.4.	Still in `sih/public/` folder, run `ng build`.
+1.4.	Still in `smart-india-hackathon/public/` folder, run `ng build`.
 
 
 
@@ -37,13 +37,13 @@
 
 2.1.	Start MongoDB with `mongod` command or, `mongod --dbpath PATH_TO_YOUR_DATA_DB_FOLDER` passing the path to default MongoDB data folder.
 
-2.2.	Go to `sih/` folder and run `nodemon server`  command.
+2.2.	Go to `smart-india-hackathon/` folder and run `nodemon server`  command.
 
-2.3.1 Go to `sih/public/` folder and run `ng serve`  command to serve on `localhost:4200`.
+2.3.1 Go to `smart-india-hackathon/public/` folder and run `ng serve`  command to serve on `localhost:4200`.
 
 #### OR
 
-2.3.1	Go to `sih/public/` folder and run `ng build`  command to serve on `localhost:3000`.
+2.3.1	Go to `smart-india-hackathon/public/` folder and run `ng build`  command to serve on `localhost:3000`.
 
 ---
 
