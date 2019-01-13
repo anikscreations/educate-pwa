@@ -1,5 +1,5 @@
 # |  SIH App
-### Welcome to Smart India Hackathone dev team!
+### Welcome to Smart India Hackathon dev team!
 
 
 ##### Make sure to read all the guidelines before start working
@@ -19,17 +19,15 @@
 
 
 1.1.	Open the terminal, go to the folder where you want **sih** repository to be installed and run:
-`git clone https://github.com/YOUR_USERNAME/smart-india-hackathon.git` (Only Your particular USER_NAME will be allowed to do so, as this is the private repo)
+`git clone https://github.com/shubham3597/smart-india-hackathon.git` (Only Your particular USER_NAME will be allowed to do so, as this is the private repo)
 
-*(replace `YOUR_USERNAME` by your github username)*
 
 1.2.	Go to `sih/` folder and run `npm install`.
 
 1.3.	Go to `sih/public/` folder and run `npm install`.
 
-1.4.	Still in `sih/public/` folder, run `ng build` or run `ng serve` to serve the app on port 3000 and 4200 respectively.
+1.4.	Still in `sih/public/` folder, run `ng build`.
 
-1.5.	Run `nodemon server` to start the server in the `sih/` main dir.
 
 
 ## 2. Running The App On Your Machine
