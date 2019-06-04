@@ -1,0 +1,133 @@
+// Fonts
+
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700);
+
+// Colors
+
+$bg: #fff;
+$pink: #EE3769;
+$blue: #03A9F4;
+$dblue: #0288D1;
+$grey: #c9c9c9;
+$dgrey: #bbb;
+
+.main{
+    background-color: $bg;
+    border: 1px solid #e7e7e7;
+    margin: 80px auto;
+    width: 500px;
+    padding: 40px 30px 60px 40px;
+}
+
+
+// Input
+
+.input-box{
+    display: block;
+    position: relative;
+    margin-bottom: 20px;
+
+  input{
+    padding: 10px 0;
+    background: none;
+    border: none;
+    border-bottom: solid 2px $grey;
+    width: 300px;
+    color: $blue;
+    -webkit-transition: all 0.6s ease-out 0s;
+    transition: all 0.6s ease-out 0s;
+    &:focus, &:active{
+        outline: none;
+      }
+  }
+
+
+label{
+    position: absolute;
+    top: 16%;
+    left: 0;
+    color: #999;
+    font-family: "Roboto Condensed";
+    font-size: 18px;
+    font-weight: 300;
+    font-style: italic;
+    pointer-events: none;
+    -webkit-transition: all 0.15s ease-out 0s;
+    transition: all 0.15s ease-out 0s;
+}
+
+input:focus + label,
+input:valid + label{
+    top: -12px;
+    font-size: 14px;
+    color: $grey;
+}
+
+input:focus{
+    border-bottom: solid 2px $pink;
+}
+
+}
+
+
+
+// Button
+
+.btn{
+    background-color: $blue;
+    font-family: "Roboto Condensed";
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    padding: 0.2em 3em;
+    border-radius: 5px;
+    border: 0;
+    border-bottom: 5px solid $dblue;
+    float: right;
+    margin-top: 10px;
+    -webkit-user-select: none;
+      
+  &:hover{
+    cursor: pointer;
+  }
+
+  
+  &:focus{
+    outline: none;
+  }
+
+  
+  &:active{
+    transform: translate(0, 5px);
+    border-bottom: 1px solid $dblue;
+  }
+
+
+    &::after{
+        content: '';
+        display: block;
+        height: 4px;
+    }
+ 
+}
+
+// MediaQueries for Mobile
+
+@media (max-width: 620px){
+    .input-box{
+        input{
+            width: 100%
+        }
+    
+      }
+    
+      
+      .main{
+        width: 86%;
+        margin-top: 20px;
+        padding: 30px 4% 50px 4%;
+      }
+}
+
+
+
