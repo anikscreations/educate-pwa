@@ -1,6 +1,4 @@
-# |  SIH App
-### Welcome to Smart India Hackathon dev team!
-
+# |  Educate Web App
 
 ##### Make sure to read all the guidelines before start working
 
@@ -18,15 +16,15 @@
 ## 1. Installing The App On Your Machine
 
 
-1.1.	Open the terminal, go to the folder where you want **sih** repository to be installed and run:
-`git clone https://github.com/shubham3597/smart-india-hackathon.git` (Only Your particular USER_NAME will be allowed to do so, as this is the private repo)
+1.1.	Open the terminal, go to the folder where you want **educate** repository to be installed and run:
+`git clone https://github.com/shubham3597/educate-pwa.git` (Only Your particular USER_NAME will be allowed to do so, as this is the private repo)
 
 
-1.2.	Go to `smart-india-hackathon/` folder and run `npm install`.
+1.2.	Go to `educate-pwa/` folder and run `npm install`.
 
-1.3.	Go to `smart-india-hackathon/public/` folder and run `npm install`.
+1.3.	Go to `educate-pwa/public/` folder and run `npm install`.
 
-1.4.	Still in `smart-india-hackathon/public/` folder, run `ng build`.
+1.4.	Still in `educate-pwa/public/` folder, run `ng build`.
 
 
 
@@ -37,13 +35,13 @@
 
 2.1.	Start MongoDB with `mongod` command or, `mongod --dbpath PATH_TO_YOUR_DATA_DB_FOLDER` passing the path to default MongoDB data folder.
 
-2.2.	Go to `smart-india-hackathon/` folder and run `nodemon server`  command.
+2.2.	Go to `educate-pwa/` folder and run `nodemon server`  command.
 
-2.3.1 Go to `smart-india-hackathon/public/` folder and run `ng serve`  command to serve on `localhost:4200`.
+2.3.1 Go to `educate-pwa/public/` folder and run `ng serve`  command to serve on `localhost:4200`.
 
 #### OR
 
-2.3.1	Go to `smart-india-hackathon/public/` folder and run `ng build`  command to serve on `localhost:3000`.
+2.3.1	Go to `educate-pwa/public/` folder and run `ng build`  command to serve on `localhost:3000`.
 
 ---
 
