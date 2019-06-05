@@ -3,6 +3,7 @@ const init = () => {
     process.env.PORT = '3000';
     process.env.host = `http://localhost:${process.env.PORT}/`;
     process.env.dbURL = 'mongodb://127.0.0.1:27017/educate';
+    process.env.JWT_KEY = 'educatepwa';
     process.env.FILE_UPLOAD_FOLDER = `${__dirname}/uploads/`;
   };
   
