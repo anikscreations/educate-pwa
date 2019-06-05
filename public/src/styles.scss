@@ -15,6 +15,10 @@
     cursor: pointer;
   }
 
+  .button:focus{
+    outline: none;
+  }
+
   .button-nav {
     background-color: white; 
     color: black; 
