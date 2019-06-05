@@ -23,6 +23,8 @@ if (process.env.NODE_ENV !== 'production') {
   devEnv.init();
 }
 
+process.env.JWT_KEY = 'educatepwa';
+
 // Open MOngoose connection to db
 require('../db');
 
